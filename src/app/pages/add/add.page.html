@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar color="danger">
+    <ion-title>add</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-list>
+        <ion-item>
+          <ion-input type="text" placeholder="Username" [(ngModel)]="username"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input type="text" placeholder="phone" [(ngModel)]="phone"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input type="text" placeholder="Gander" [(ngModel)]="gander"></ion-input>
+        </ion-item>
+
+        <ion-button expand="full" (click)="tambah()">Add</ion-button>
+    </ion-list>
+</ion-content>
